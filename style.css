@@ -1,6 +1,141 @@
+@import url("./holberton_school-icon/style.css");
+
 /* #region ROOT */
 
 :root {
   --color-white: #fff;
+  --header-hover-color: #ff6565;
+  --header-hover-opacity: 0.9;
+  --header-max-width: 1000px;
+  --default-font: url("./fonts/SourceSansPro-Regular.otf");
 }
+
+/* #endregion */
+
+/* #region BODY */
+
+body {
+  display:flex;
+  flex-direction: column;
+  font-family: var(--default-font);
+}
+
+/* #endregion */
+
+/* #region HEADER */
+
+.header {
+  display:flex;
+  flex-direction: column;
+  background-image: url("./images/headphones_hero_1.jpg");
+}
+
+.header header {
+  display: flex;
+}
+
+.header .burger-patties {
+  display: flex;
+}
+
+.header .hero {
+  display: flex;
+  flex-direction: column;
+}
+
+/* #endregion */
+
+/* #region WHAT WE DO */
+
+.what-we-do {
+  display: flex;
+  flex-direction: column;
+}
+
+.wwd-hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.thingamajigs {
+  display: flex;
+}
+
+.soundwave {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-clicker {
+  display: flex;
+  flex-direction: column;
+}
+
+.music-note {
+  display: flex;
+  flex-direction: column;
+}
+
+.ear {
+  display: flex;
+  flex-direction: column;
+}
+
+/* #endregion */
+
+/* #region RESULTS */
+
+.results {
+  display: flex;
+  flex-direction: column;
+}
+
+.results .results-speak {
+  display: flex;
+  flex-direction: column;
+}
+
+.results .pentas {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1000px;
+}
+
+.results .pentagon {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./images/pentagone.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+/* #endregion */
+
+/* #region CONTACT US */
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us .contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* #endregion */
+
+/* #region FOOTER */
+
+.footer {
+  display: flex;
+}
+
+.socials {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
 /* #endregion */
