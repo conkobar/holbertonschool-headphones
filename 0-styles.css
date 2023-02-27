@@ -1,4 +1,4 @@
-@import url("./holberton_school-icon/style.css");
+ @import url("./holberton_school-icon/style.css");
 
 /* #region ROOT */
 
@@ -100,6 +100,7 @@ body p {
 .nav .nav-item:hover {
   color: var(--color-orange);
   opacity: var(--opacity-on-hover);
+  cursor: pointer;
 }
 
 /* #endregion */
@@ -299,6 +300,28 @@ body p {
   font-size: small;
   color: gray;
   margin-bottom: 3%;
+}
+
+/* #endregion */
+
+/* #region MEDIA QUERIES */
+
+@media screen and (max-width: 480px) {
+  /* MOBILE */
+
+  html {
+    font-size: 85%;
+  }
+
+  .header header {
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    padding: 0 0 5rem 0;
+  }
+
+  .navbar-menu {
+    display:none;
+  }
 }
 
 /* #endregion */
